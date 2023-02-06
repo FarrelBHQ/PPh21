@@ -1,0 +1,28 @@
+{
+    "type": "library",
+    "license": "proprietary",
+    "name": "modernoop/pph21",
+    "authors": [
+    {
+        "name": "Farrel Baihaqi Al Aftah",
+        "email": "farrelbaihaqi1212@gmail.com",
+        "homepage": "https://github.com/FarrelBHQ"
+    }
+    ],
+    "require": {
+        "php": "^8.1.1"
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true,
+        "classmap-authoritative": true,
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "pph21\\": "src/"
+        }
+    }
+}
